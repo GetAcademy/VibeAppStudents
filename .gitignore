@@ -1,0 +1,12 @@
+.local/
+**/bin/
+**/obj/
+node_modules/
+src/Client/generated/
+src/Server/wwwroot/app.js
+src/Server/wwwroot/app.js.map
+data/
+test-results/
+*.db
+*.db-shm
+*.db-wal

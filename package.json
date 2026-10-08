@@ -1,0 +1,12 @@
+{
+  "name": "student-office-experiment",
+  "private": true,
+  "scripts": {
+    "build": "dotnet fable src/Client/Client.fsproj --outDir src/Client/generated && esbuild src/Client/generated/App.js --bundle --format=esm --sourcemap --outfile=src/Server/wwwroot/app.js",
+    "test": "dotnet test tests/Tests.fsproj -m:1 -nodeReuse:false",
+    "start": "dotnet run --project src/Server/Server.fsproj -- --demo"
+  },
+  "devDependencies": {
+    "esbuild": "0.25.12"
+  }
+}

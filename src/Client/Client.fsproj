@@ -1,0 +1,5 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><TargetFramework>net10.0</TargetFramework><TreatWarningsAsErrors>true</TreatWarningsAsErrors></PropertyGroup>
+  <ItemGroup><PackageReference Include="Fable.Core" Version="5.0.0" /><PackageReference Include="Fable.Browser.Dom" Version="2.20.0" /></ItemGroup>
+  <ItemGroup><Compile Include="../Core/Ui.fs" Link="Ui.fs" /><Compile Include="App.fs" /></ItemGroup>
+</Project>

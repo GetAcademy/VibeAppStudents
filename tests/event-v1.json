@@ -1,0 +1,11 @@
+[
+  {"Case":"StudentCreated","Fields":["10000000-0000-0000-0000-000000000001",{"FullName":"Ada Example","Email":"ada@example.test","BirthDate":"2000-01-02"}]},
+  {"Case":"StudentDetailsChanged","Fields":["10000000-0000-0000-0000-000000000001",{"FullName":"Ada Changed","Email":"ada@example.test","BirthDate":"2000-01-02"}]},
+  {"Case":"ApplicationSubmitted","Fields":["20000000-0000-0000-0000-000000000001","10000000-0000-0000-0000-000000000001","digital","2026-08-10"]},
+  {"Case":"MoreDocumentationRequested","Fields":["20000000-0000-0000-0000-000000000001","Certificate"]},
+  {"Case":"ApplicationApproved","Fields":["20000000-0000-0000-0000-000000000001","2026-08-17"]},
+  {"Case":"AttendanceRegistered","Fields":["20000000-0000-0000-0000-000000000001","2026-09-01",{"Case":"Present"}]},
+  {"Case":"CourseCompleted","Fields":["20000000-0000-0000-0000-000000000001","2026-10-08",{"Case":"Passed"}]},
+  {"Case":"ApplicationRejected","Fields":["20000000-0000-0000-0000-000000000001","Prerequisite missing"]},
+  {"Case":"CourseParticipationDiscontinued","Fields":["20000000-0000-0000-0000-000000000001","2026-10-08","Moved"]}
+]
